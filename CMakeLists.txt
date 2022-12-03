@@ -3,4 +3,4 @@ project(c_study C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_library(c_study library.c)
+add_library(c_study library.c main.c)
