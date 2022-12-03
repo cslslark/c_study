@@ -1,4 +1,13 @@
 /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/yinjianhui/projects/c_study -B /Users/yinjianhui/projects/c_study/cmake-build-debug
 -- Configuring done
--- Generating done
--- Build files have been written to: /Users/yinjianhui/projects/c_study/cmake-build-debug
+CMake Error at CMakeLists.txt:6 (add_library):
+  Cannot find source file:
+
+    1.两数之和/jiajianchengchu.c
+
+
+CMake Error at CMakeLists.txt:6 (add_library):
+  No SOURCES given to target: c_study
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
