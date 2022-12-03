@@ -54,7 +54,8 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1
+				1,
+				2
 			]
 		}
 	],
@@ -73,7 +74,8 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1
+				1,
+				2
 			]
 		}
 	],
@@ -89,6 +91,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "1.\u4e24\u6570\u4e4b\u548c/twoSum.c",
 			"sourceGroupIndex" : 0
 		}
 	],

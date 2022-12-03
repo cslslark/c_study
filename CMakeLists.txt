@@ -3,4 +3,4 @@ project(c_study C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_library(c_study library.c main.c)
+add_library(c_study library.c main.c 1.两数之和/jiajianchengchu.c)

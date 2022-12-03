@@ -58,6 +58,12 @@ build CMakeFiles/c_study.dir/main.c.o: C_COMPILER__c_study_Debug /Users/yinjianh
   OBJECT_DIR = CMakeFiles/c_study.dir
   OBJECT_FILE_DIR = CMakeFiles/c_study.dir
 
+build CMakeFiles/c_study.dir/1.两数之和/twoSum.c.o: C_COMPILER__c_study_Debug /Users/yinjianhui/projects/c_study/1.两数之和/twoSum.c || cmake_object_order_depends_target_c_study
+  DEP_FILE = CMakeFiles/c_study.dir/1.两数之和/twoSum.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/c_study.dir
+  OBJECT_FILE_DIR = CMakeFiles/c_study.dir/1.两数之和
+
 
 # =============================================================================
 # Link build statements for STATIC_LIBRARY target c_study
@@ -66,7 +72,7 @@ build CMakeFiles/c_study.dir/main.c.o: C_COMPILER__c_study_Debug /Users/yinjianh
 #############################################
 # Link the static library libc_study.a
 
-build libc_study.a: C_STATIC_LIBRARY_LINKER__c_study_Debug CMakeFiles/c_study.dir/library.c.o CMakeFiles/c_study.dir/main.c.o
+build libc_study.a: C_STATIC_LIBRARY_LINKER__c_study_Debug CMakeFiles/c_study.dir/library.c.o CMakeFiles/c_study.dir/main.c.o CMakeFiles/c_study.dir/1.两数之和/twoSum.c.o
   ARCH_FLAGS = -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = CMakeFiles/c_study.dir
